@@ -434,9 +434,19 @@ a {
 /* footer */
 
 .page-footer {
-  max-height: 312px;
   padding: 100px 0;
   background-color: #2e2f42;
+}
+
+.container-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 40px;
+}
+
+.footer {
+  max-width: 264px;
 }
 
 .footer-logo .logo-part {
@@ -446,23 +456,16 @@ a {
 }
 
 .footer-text {
-  max-width: 264px;
-  line-height: 1.5;
-  color: #f4f4fd;
-  letter-spacing: 0.02em;
-}
-
-.comment {
-  display: flex;
-  gap: 16px;
-  min-width: 264px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  text-align: left;
   color: #f4f4fd;
 }
 
+.social-media {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
-  text-align: left;
-  color: #f4f4fd;
+  margin-bottom: 16px;
+  color: #ffffff;
 }
