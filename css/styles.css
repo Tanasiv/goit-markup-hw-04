@@ -441,7 +441,7 @@ a {
 .container-footer {
   display: flex;
   justify-content: space-between;
-  align-items: flex-start;
+  align-items: baseline;
   gap: 40px;
 }
 
@@ -468,4 +468,13 @@ a {
   letter-spacing: 0.02em;
   margin-bottom: 16px;
   color: #ffffff;
+}
+
+.icon-footer {
+  gap: 16px;
+}
+
+.icon-link:hover,
+.icon-link:focus {
+  background-color: #404bbf;
 }
