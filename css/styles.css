@@ -166,12 +166,13 @@ a {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-}
-.section-image {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
   align-items: center;
-  margin: auto;
-  max-width: 1440px;
+  justify-content: center;
 }
+
 .one-name {
   display: block;
   margin-right: auto;
