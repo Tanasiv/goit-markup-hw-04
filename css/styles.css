@@ -382,7 +382,7 @@ a {
   background-color: #404bbf;
 }
 
-.icon-s-three {
+.icon-three {
   width: 16px;
   height: 16px;
 }
@@ -438,7 +438,7 @@ a {
   overflow: hidden;
 }
 
-.text-s-four {
+.text-four {
   position: absolute;
   top: 0;
   left: 0;
@@ -492,10 +492,8 @@ a {
 
 .container-footer {
   display: flex;
-  justify-content: space-between;
   align-items: baseline;
-  gap: 40px;
-  margin-right: 120px;
+  gap: 120px;
 }
 
 .footer {
